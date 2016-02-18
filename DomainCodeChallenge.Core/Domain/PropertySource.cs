@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainCodeChallenge.Core
+namespace DomainCodeChallenge.Core.Domain
 {
-    public class Class1
+    public enum PropertySource
     {
+        Database,
+        Agency
     }
 }
