@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Business\IPropertyMatcher.cs" />
     <Compile Include="Business\PropertyMatcherFactory.cs" />
+    <Compile Include="Business\Providers\CREProvider.cs" />
     <Compile Include="Business\Providers\LREProvider.cs" />
     <Compile Include="Business\Providers\OTBREProvider.cs" />
     <Compile Include="Business\PropertyMatcher.cs" />
@@ -51,7 +52,6 @@
     <Compile Include="Configuration\Elements\PropertyMatcherProvider.cs" />
     <Compile Include="Configuration\Elements\PropertyMatcherProviderCollection.cs" />
     <Compile Include="Domain\Property.cs" />
-    <Compile Include="Domain\PropertySource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

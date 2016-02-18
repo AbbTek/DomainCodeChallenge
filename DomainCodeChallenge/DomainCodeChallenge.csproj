@@ -168,7 +168,11 @@
     <Content Include="scripts\angular-animate.min.js.map" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\domain\core\core.module.js" />
     <None Include="scripts\jquery-2.2.0.intellisense.js" />
+    <Content Include="scripts\domain\core\dataService.js" />
+    <Content Include="scripts\domain\matcher\matcher.js" />
+    <Content Include="scripts\domain\matcher\matcher.module.js" />
     <Content Include="scripts\jquery-2.2.0.js" />
     <Content Include="scripts\jquery-2.2.0.min.js" />
     <Content Include="Web.config" />
@@ -177,10 +181,12 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\Api\PropertyMatcherController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\PropertyComparer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -202,7 +208,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DomainCodeChallenge.Core\DomainCodeChallenge.Core.csproj">
+      <Project>{b5ef386f-7c0d-45c6-a915-b3771d678c3b}</Project>
+      <Name>DomainCodeChallenge.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -56,5 +56,26 @@ namespace DomainCodeChallenge.Core.Test
             var result = provider.IsMatch(agencyProperty, databaseProperty);
             Assert.IsTrue(result);
         }
+
+        [TestMethod]
+        public void CREProviderTest()
+        {
+            //Arrange
+            var databaseProperty = new Property()
+            {
+                Name = "The  Summit Apartments"
+            };
+
+            var agencyProperty = new Property()
+            {
+                Name = "Apartments Summit The"
+            };
+
+            var provider = PropertyMatcherFactory.GetProvider("CRE");
+
+            //Action
+            var result = provider.IsMatch(agencyProperty, databaseProperty);
+            Assert.IsTrue(result);
+        }
     }
 }

@@ -30,6 +30,14 @@ namespace DomainCodeChallenge.App_Start
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
 
+            bundles.Add(new ScriptBundle("~/bundles/domain").Include(
+                        "~/Scripts/angular.js",
+                        "~/Scripts/angular-animate.js",
+
+                        "~/Scripts/domain/core/core.module.js",
+                        "~/Scripts/domain/core/dataService.js",
+                        "~/Scripts/domain/matcher/matcher.module.js",
+                        "~/Scripts/domain/matcher/matcher.js"));
 
         }
     }

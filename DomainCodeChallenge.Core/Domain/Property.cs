@@ -8,7 +8,6 @@ namespace DomainCodeChallenge.Core.Domain
 {
     public class Property
     {
-        public PropertySource Source { get; set; }
         public string Address { get; set; }
         public string AgencyCode { get; set; }
         public string Name { get; set; }
