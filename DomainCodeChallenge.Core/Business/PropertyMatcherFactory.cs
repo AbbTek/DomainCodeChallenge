@@ -25,7 +25,9 @@ namespace DomainCodeChallenge.Core.Business
                 if (provider != null)
                 {
                     var type = Type.GetType(provider.TypeName);
-                    providers[provider.AgencyCode] = Activator.CreateInstance(type) as IPropertyMatcher;
+                    var concreteProvider = Activator.CreateInstance(type) as PropertyMatcher;
+                    if (concreteProvider != null)
+                        providers[concreteProvider.AgencyCode] = concreteProvider;
                 }
             }
         }

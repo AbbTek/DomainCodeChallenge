@@ -16,7 +16,7 @@ namespace DomainCodeChallenge.Core.Configuration.Elements
 
         protected override object GetElementKey(ConfigurationElement element)
         {
-            return ((PropertyMatcherProvider)element).AgencyCode;
+            return ((PropertyMatcherProvider)element).TypeName;
         }
     }
 }
