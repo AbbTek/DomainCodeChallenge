@@ -169,6 +169,7 @@
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\domain\core\core.module.js" />
+    <None Include="Properties\PublishProfiles\Deploy.pubxml" />
     <None Include="scripts\jquery-2.2.0.intellisense.js" />
     <Content Include="scripts\domain\core\dataService.js" />
     <Content Include="scripts\domain\matcher\matcher.js" />

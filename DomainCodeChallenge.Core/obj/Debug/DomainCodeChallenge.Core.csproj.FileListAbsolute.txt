@@ -1,0 +1,10 @@
+C:\dev\DomainCodeChallenge\DomainCodeChallenge.Core\bin\Debug\DomainCodeChallenge.Core.dll
+C:\dev\DomainCodeChallenge\DomainCodeChallenge.Core\bin\Debug\DomainCodeChallenge.Core.pdb
+C:\dev\DomainCodeChallenge\DomainCodeChallenge.Core\obj\Debug\DomainCodeChallenge.Core.csprojResolveAssemblyReference.cache
+C:\dev\DomainCodeChallenge\DomainCodeChallenge.Core\obj\Debug\DomainCodeChallenge.Core.dll
+C:\dev\DomainCodeChallenge\DomainCodeChallenge.Core\obj\Debug\DomainCodeChallenge.Core.pdb
+C:\Users\carlosWin\Source\Repos\DomainCodeChallenge\DomainCodeChallenge.Core\bin\Debug\DomainCodeChallenge.Core.dll
+C:\Users\carlosWin\Source\Repos\DomainCodeChallenge\DomainCodeChallenge.Core\bin\Debug\DomainCodeChallenge.Core.pdb
+C:\Users\carlosWin\Source\Repos\DomainCodeChallenge\DomainCodeChallenge.Core\obj\Debug\DomainCodeChallenge.Core.csprojResolveAssemblyReference.cache
+C:\Users\carlosWin\Source\Repos\DomainCodeChallenge\DomainCodeChallenge.Core\obj\Debug\DomainCodeChallenge.Core.dll
+C:\Users\carlosWin\Source\Repos\DomainCodeChallenge\DomainCodeChallenge.Core\obj\Debug\DomainCodeChallenge.Core.pdb
