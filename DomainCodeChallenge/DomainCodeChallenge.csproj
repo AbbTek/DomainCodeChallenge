@@ -161,6 +161,10 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="scripts\angular-animate.js" />
     <Content Include="scripts\angular-animate.min.js" />
+    <Content Include="scripts\angular-google-maps-street-view.js" />
+    <Content Include="scripts\angular-google-maps-street-view.min.js" />
+    <Content Include="scripts\angular-google-maps.js" />
+    <Content Include="scripts\angular-google-maps.min.js" />
     <Content Include="scripts\angular-mocks.js" />
     <Content Include="scripts\angular.js" />
     <Content Include="scripts\angular.min.js" />
@@ -176,6 +180,9 @@
     <Content Include="scripts\domain\matcher\matcher.module.js" />
     <Content Include="scripts\jquery-2.2.0.js" />
     <Content Include="scripts\jquery-2.2.0.min.js" />
+    <Content Include="scripts\lib\angular-simple-logger.js" />
+    <Content Include="scripts\lodash.js" />
+    <Content Include="scripts\lodash.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

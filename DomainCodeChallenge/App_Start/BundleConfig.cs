@@ -31,8 +31,11 @@ namespace DomainCodeChallenge.App_Start
                       "~/Content/site.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/domain").Include(
+                        "~/Scripts/lodash.js",
                         "~/Scripts/angular.js",
                         "~/Scripts/angular-animate.js",
+                        "~/Scripts/lib/angular-simple-logger.js",
+                        "~/Scripts/angular-google-maps.js",
 
                         "~/Scripts/domain/core/core.module.js",
                         "~/Scripts/domain/core/dataService.js",
