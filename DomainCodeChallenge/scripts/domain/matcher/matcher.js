@@ -5,7 +5,7 @@
        .module('domain.matcher')
        .controller('matcherController', matcherController);
 
-    function matcherController($scope, $timeout, $log, domainService) {
+    function matcherController($scope, $timeout, domainService) {
         $scope.databaseProperty = {
             Name: "Super ­High APARTMENTS, Sydney",
             Address: "32 Sir John­ Young Crescent, Sydney, NSW.",
@@ -28,11 +28,8 @@
                 options: { draggable: true },
                 events: {
                     dragend: function (marker, eventName, args) {
-                        $log.log('marker dragend');
                         var lat = marker.getPosition().lat();
                         var lon = marker.getPosition().lng();
-                        $log.log(lat);
-                        $log.log(lon);
                         $scope.databaseProperty.Latitude = lat;
                         $scope.databaseProperty.Longitude = lon;
                     }
@@ -62,11 +59,8 @@
                 options: { draggable: true },
                 events: {
                     dragend: function (marker, eventName, args) {
-                        $log.log('marker dragend');
                         var lat = marker.getPosition().lat();
                         var lon = marker.getPosition().lng();
-                        $log.log(lat);
-                        $log.log(lon);
                         $scope.agencyProperty.Latitude = lat;
                         $scope.agencyProperty.Longitude = lon;
                     }
